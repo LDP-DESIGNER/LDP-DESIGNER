@@ -1,7 +1,5 @@
-<mvc:View controllerName="logaligroup.invoices.controller.MainView"
-    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-    xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="logaligroup.invoices.controller.MainView" displayBlock="true">
     <Page id="page" title="{i18n>title}">
-        <content> <Text text="Hola Mundo!">  </Text> </content>
+        <content> <Text text="Hola Mundo!">  </Text> <Label text="how are you!" width="100%" id="label1"/> </content>
     </Page>
 </mvc:View>
